@@ -39,11 +39,9 @@ repositories {
 }
 
 dependencies {
-    implementation group: 'org.ow2.asm', name: 'asm-debug-all', version: '5.2'
+    implementation group: 'org.ow2.asm', name: 'asm', version: '9.5'
+    implementation group: 'org.ow2.asm', name: 'asm-commons', version: '9.5'
     implementation group: 'com.google.code.gson', name: 'gson', version: '2.7'
-
-
-//    compile 'org.ow2.asm:asm-debug-all:6.0_BETA'
 
     testImplementation(
             'org.junit.jupiter:junit-jupiter-api:5.0.1'
